@@ -5,6 +5,12 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
+// testing common func
+
+const CommonFunction = require("common");
+
+CommonFunction();
+
 new Vue({
   router,
   store,
